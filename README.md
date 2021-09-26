@@ -1,6 +1,11 @@
 # Europian School Management Association
-## The Demo live site of this website [Demo Live Site](https://app.netlify.com/sites/hardcore-knuth-aebe48/overview)
+## The Demo live site of this website [Demo Live Site](https://hardcore-knuth-aebe48.netlify.app/)
 
+
+#Features
+*This website is for Europian School Management Association,
+*This Association is Managed by using this website,
+*HTML CSS and JavaScript library React is used to Create this Website
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
