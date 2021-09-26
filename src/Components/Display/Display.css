@@ -1,0 +1,20 @@
+
+.display{
+    display: flex;
+    background-color: bisque;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.display-img img{
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    padding: 4px;
+    
+}
+
+.display-info{
+    margin-left: 10px;
+    
+}

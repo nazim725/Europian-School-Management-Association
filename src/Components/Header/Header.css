@@ -1,9 +1,20 @@
 .header{
     width: 80%;
-    background-color: rgba(162, 197, 185, 0.37);
+    background-color:rgba(202, 183, 183, 0.513);
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 0 auto;
     text-align: center;
     margin-top: 10px;
+    border-radius: 20px;
+}
+.header h1{
+    color: rgb(61, 61, 58);
+}
+.header h5{
+    color: rgba(31, 98, 95, 0.89);
+}
+
+.header h2{
+    color: midnightblue;
 }

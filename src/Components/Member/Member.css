@@ -23,6 +23,7 @@
     background-color:rgb(236, 236, 198)
 }
 
+
 .members p{
     font-size: 15px;
     font-weight: 600;
@@ -30,12 +31,21 @@
 
 .members button{
     width: 150px;
-    background-color: goldenrod;
+    background-color: rgb(148, 141, 135);
     border: 1px solid gray;
     padding: 5px;
     margin-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 45px;
     border-radius: 10px;
+    color: lightyellow;
+}
+.members button:hover{
+    background-color: rgba(245, 229, 10, 0.911);
+    transition: 1s;
+    width: 160px;
+    color: purple;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 .icons{
     text-align: center;

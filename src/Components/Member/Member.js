@@ -21,7 +21,7 @@ const Member = (props) => {
             <p>Age: {age}</p>
             <p>Country: {country}</p>
             <p>Salary: {salary}</p>
-            <button onClick={()=>props.handleAddToCart(props.member)}> {element} Add To cart</button>
+            <button onClick={()=>props.handleAddToCart(props.member)}> <i class="fas fa-user-alt member-icon"></i>  Add To cart</button>
             <br />
 
            <div className="icons">

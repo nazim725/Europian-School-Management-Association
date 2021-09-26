@@ -1,19 +1,12 @@
 import React from 'react';
+import Display from '../Display/Display';
 import './Cart.css'
 
 const Cart = (props) => {
     const memberCarts=props.cart
-
-    // console.log(memberCarts)
-    
     let salary=0;
-    let name=''
-   
-    
     for(const memeber of memberCarts){
-        salary=salary+memeber.salary
-        name=name+" "+memeber.name +"||"
-        
+        salary=salary+memeber.salary  
     }
     
 
@@ -23,10 +16,10 @@ const Cart = (props) => {
 
     
     return (
-        <div>
+        <div className="cart">
            <h4>Total Cost: {salary}</h4>
-           
-            {memberCarts.map(member=><h5>{member.name}</h5>)}
+           <h4>Members:--</h4>
+            {memberCarts.map(member=> <Display member={member}></Display>)}
            
         </div>
     );
