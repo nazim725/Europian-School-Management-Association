@@ -7,16 +7,17 @@ const Cart = (props) => {
     // console.log(memberCarts)
     
     let salary=0;
-    // let name=''
+    let name=''
    
     
     for(const memeber of memberCarts){
         salary=salary+memeber.salary
-        // name=name+" "+memeber.name +"||"
+        name=name+" "+memeber.name +"||"
         
     }
+    
 
-    memberCarts.map(member=> console.log(props.memeber.name))
+    
   
 
 
@@ -24,7 +25,8 @@ const Cart = (props) => {
     return (
         <div>
            <h4>Total Cost: {salary}</h4>
-         
+           
+            {memberCarts.map(member=><h5>{member.name}</h5>)}
            
         </div>
     );
