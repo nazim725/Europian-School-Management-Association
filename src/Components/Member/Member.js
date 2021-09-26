@@ -4,9 +4,9 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Member.css'
 
 const Member = (props) => {
-    console.log(props)
+    // console.log(props)
 
-    console.log(props.member)
+    // console.log(props.member)
 
     const {name,email,age,img,salary,role,country}=props.member;
     const element = <FontAwesomeIcon icon={faShoppingCart} />
