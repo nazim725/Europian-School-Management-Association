@@ -1,0 +1,49 @@
+.img-div{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+
+.img-div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.members{
+    /* border: 1px solid gray; */
+    /* margin-right: 20px;
+    margin-bottom: 20px; */
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 5px;
+    box-shadow:  10px 5px 5px rgba(224, 218, 218, 0.822);
+    background-color:rgb(236, 236, 198)
+}
+
+.members p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.members button{
+    width: 150px;
+    background-color: goldenrod;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.icons{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+i{
+    font-size: 25px;
+    color: rgb(13, 101, 136);
+    margin-right: 20px;
+}

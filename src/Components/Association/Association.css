@@ -1,0 +1,23 @@
+.association{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 108px;
+    
+    margin-top: 30px;
+}
+
+
+.members-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap:15px ;
+}
+
+.member-icon{
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
